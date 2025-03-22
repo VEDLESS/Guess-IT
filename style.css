@@ -1,0 +1,107 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('bgnumguess.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#wrapper {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#guessField {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    outline: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#guessField:focus {
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+#subt {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff4757;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#subt:hover {
+    background-color: #ff6b81;
+}
+
+.lowOrHi {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffcc00;
+    font-weight: 600;
+}
+
+.resultParas {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.guesses {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.lastResult {
+    font-weight: bold;
+    color: #ff3333;
+}
+
+#newGame {
+    display: inline-block;
+    background: #ff3333;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+#newGame:hover {
+    background: #cc0000;
+}
