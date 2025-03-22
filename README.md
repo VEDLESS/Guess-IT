@@ -19,7 +19,8 @@ Try to guess the randomly generated number and see if you can get it right in th
 - **JavaScript** - Game logic and interactivity  
 
 ## 📷 Screenshots
-<img src="https://raw.githubusercontent.com/VEDLESS/Guess-IT/main/bgnumguess.jpg" width="500">
+<img src="ss1.png" width="500">
+<img src="ss2.png" width="500">
 
 ## 📂 How to Use  
 1. Enter a number in the input field.  
